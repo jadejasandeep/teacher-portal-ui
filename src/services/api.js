@@ -31,7 +31,7 @@ const getAuthHeaders = () => {
     }
   };
 
-export const signup = async (userData) => {
+export const signupUser = async (userData) => {
     try {
       const response = await axios.post(`${API_BASE_URL}/teachers/signup`, userData);
       return response.data;

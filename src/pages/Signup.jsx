@@ -1,10 +1,8 @@
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
 import { TextField, Button, Container, Typography, Box , Link} from "@mui/material";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { signupUser } from "../services/api";
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),

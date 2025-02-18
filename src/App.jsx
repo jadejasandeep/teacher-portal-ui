@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import TeacherList from "./pages/TeacherList";
 import StudentList from "./pages/StudentList";
 import { useAuth } from "./context/AuthContext";
+import Navbar from "./components/Navbar";
 import { fetchTeachers, fetchStudents } from "./services/api";
 import { useEffect, useState } from "react";
 
@@ -50,7 +51,9 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+     
       <Router>
+      <Navbar />
         <Routes>
           {/* Public Routes */}
           <Route path="/signup" element={<Signup />} />
