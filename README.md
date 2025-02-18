@@ -1,8 +1,39 @@
-# React + Vite
+# UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies Used
+React: JavaScript library for building user interfaces.
 
-Currently, two official plugins are available:
+Vite: Next-generation front-end tooling for fast and efficient development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Redux: State management for React applications.
+
+Material-UI: React components for faster and easier web development.
+
+Axios: Promise-based HTTP client for making API requests.
+
+React Router: Library for routing in React applications.
+
+# Prerequisites
+Node.js(v14.x or higher)
+npm (v6.x or higher) or Yarn (v1.x or higher)
+
+# Installation
+## Clone the repository:
+```
+git clone https://github.com/jadejasandeep/teacher-portal-ui.git
+cd teacher-portal-ui
+```
+## Install dependencies
+```
+npm install
+```
+## Run the application:
+```
+npm run dev
+```
+
+# Improvements or TO DO Things
+- Unit Testing needs to be done using Jest which is pending due to time constraint 
+- Improved validations and messaging
+- Improved UI and navigation
+  
